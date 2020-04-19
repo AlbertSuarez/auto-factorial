@@ -1,7 +1,7 @@
 import time
 
+from src import scheduler
 from src.helper import log, env
-from src.scheduler import scheduler
 
 
 if __name__ == '__main__':
@@ -11,7 +11,7 @@ if __name__ == '__main__':
             scheduler.scheduler.start()
         else:
             log.info('Running jobs manually since DEVELOPMENT MODE is enabled, and then sleep eternally.')
-            scheduler.run()
+            scheduler.auto_factorial_cron_job()
             while True:
                 time.sleep(1000)
 
