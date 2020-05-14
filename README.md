@@ -8,7 +8,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/AlbertSuarez/auto-factorial.svg)](https://GitHub.com/AlbertSuarez/auto-factorial/graphs/contributors/)
 [![GitHub license](https://img.shields.io/github/license/AlbertSuarez/auto-factorial.svg)](https://github.com/AlbertSuarez/auto-factorial/blob/master/LICENSE)
 
-📝 Docker image that clocks you in daily on Factorial
+📝 (Work in Progress Project) Docker image that clocks you in daily on Factorial
 
 ## How to run
 
