@@ -7,3 +7,8 @@ ENV_DEFAULT_START_HOUR = 8
 
 CRON_TYPE = 'cron'
 CRON_DAY_OF_WEEK = 'mon-fri'
+
+SELENIUM_BINARY_PATH = '/usr/bin/firefox'
+SELENIUM_EXECUTABLE_PATH = 'geckodriver/geckodriver'
+
+FACTORIAL_WEBSITE_INIT = 'https://factorialhr.com/users/sign_in'
